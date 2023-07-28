@@ -1,5 +1,5 @@
-# CredNet-AMEX-Default-Prediction-GRU-Model
-CredNet - AMEX Default Prediction GRU Model
+# CredNet-AMEX-Credit-Card-Default-Prediction-GRU-Model
+CredNet - A GRU Model for predicting credit card default on the American Express Dataset.
 
 This repository contains an implementation of a Recurrent Neural Network (RNN) model designed to predict credit card default using the American Express - Default Prediction dataset from Kaggle. The goal of the model is to effectively identify potential credit card defaults and assist in risk assessment.
 
