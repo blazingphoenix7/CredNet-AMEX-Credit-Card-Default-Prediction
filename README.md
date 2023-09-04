@@ -1,18 +1,25 @@
-# CredNet-AMEX-Credit-Card-Default-Prediction-GRU-Model
-CredNet - A GRU Model for predicting credit card default on the American Express Dataset.
+# CredNet - Credit Card Default Prediction with GRU
 
-This repository contains an implementation of a Recurrent Neural Network (RNN) model designed to predict credit card default using the American Express - Default Prediction dataset from Kaggle. The goal of the model is to effectively identify potential credit card defaults and assist in risk assessment.
+CredNet is a deep learning project that leverages a Gated Recurrent Unit (GRU) [a Recurrent Neural Network mechanism) model to predict credit card defaults using the American Express - Default Prediction dataset from Kaggle. The primary aim of this project is to develop an effective tool for identifying potential credit card defaults, assisting in risk assessment, and contributing to the field of financial analytics.
 
-To replicate this project, follow these steps:
+## Dataset
 
-1. Download the dataset from Kaggle: The dataset can be accessed from the Kaggle competition page at https://www.kaggle.com/competitions/amex-default-prediction?rvi=1. Additionally, you can download the compressed version of the dataset from https://www.kaggle.com/datasets/odins0n/amex-parquet.
+The dataset used in this project can be obtained from the Kaggle competition page: [American Express - Default Prediction](https://www.kaggle.com/competitions/amex-default-prediction?rvi=1). Alternatively, you can download the compressed dataset directly from [this link](https://www.kaggle.com/datasets/odins0n/amex-parquet).
 
-2. Exploratory Data Analysis: Execute the 'american-express-eda.ipynb' Jupyter notebook. This notebook performs Exploratory Data Analysis (EDA) and provides insights into the dataset, helping you gain a better understanding of its structure and features.
+## Getting Started
 
-3. Prepare the Training Data: Run the 'split_train.ipynb' Jupyter notebook. This file is responsible for splitting the large training dataset (16 GB) into smaller files, which prevents kernel crashes due to memory limitations while processing the data. You can use the same file for splitting the large testing dataset (33 GB) into smaller files.
+To replicate and contribute to this project, follow these steps:
 
-4. Train the GRU Model: Use the 'AMEX_model_train.ipynb' Jupyter notebook to train the GRU model on the dataset. Feel free to experiment with various hyperparameters to optimize the model's performance and achieve the best possible results.
+1. Clone the repository to your local machine
+2. Set up your Python environment and install the required libraries by running 'pip install -r requirements.txt' in your terminal.
+3. **Exploratory Data Analysis (EDA)**: Execute the 'american-express-eda.ipynb' Jupyter notebook. This notebook performs Exploratory Data Analysis (EDA), offering valuable insights into the dataset's structure and features. Understanding the data is crucial before diving into model development.
+4. **Data Preparation**: Use the 'split_train.ipynb' Jupyter notebook to split the large training dataset (16 GB) into smaller, manageable files. This step helps prevent memory-related issues during data processing. You can apply the same approach to the extensive testing dataset (33 GB).
+5. **Training the GRU Model**: Utilize the 'AMEX_model_train.ipynb' Jupyter notebook to train the GRU model on the dataset. Feel free to experiment with various hyperparameters to fine-tune the model's performance and achieve optimal results.
 
-By following these steps and customizing the model's hyperparameters, you can explore and fine-tune the GRU model for credit card default prediction, contributing to enhanced credit risk assessment in the financial domain. Feel free to use, modify, and build upon this repository for further research and applications. 
+## Contributing
 
+We welcome contributions to this project! Whether you want to improve the model's accuracy, optimize code efficiency, or enhance the project's documentation, your contributions are valuable. Please open an issue or submit a pull request to get involved. Feel free to use this repository as a starting point for your own research, and together, we can contribute to enhanced credit risk assessment in the financial domain.
 
+## License
+
+This project is open-source and available under the MIT License. You are free to use, modify, and build upon the codebase for your research and applications.
