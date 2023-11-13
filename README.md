@@ -1,6 +1,6 @@
 # CredNet - Credit Card Default Prediction with GRU
 
-CredNet is a deep learning project that leverages a Gated Recurrent Unit (GRU) [a Recurrent Neural Network mechanism) model to predict credit card defaults using the American Express - Default Prediction dataset from Kaggle. The primary aim of this project is to develop an effective tool for identifying potential credit card defaults, assisting in risk assessment, and contributing to the field of financial analytics.
+CredNet is a deep learning project that leverages a Gated Recurrent Unit (GRU) (a Recurrent Neural Network mechanism) model to predict credit card defaults using the American Express - Default Prediction dataset from Kaggle. The primary aim of this project is to develop an effective tool for identifying potential credit card defaults, assisting in risk assessment, and contributing to the field of financial analytics.
 
 ## Dataset
 
